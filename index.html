@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ProveYourSelf</title>
+
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    </head>
+    <body>
+        <table border="1" id="hide" width="100%" hight="45px" class="nav-bar"> 
+            <th class="logo">
+                <b><i>
+                    QuizApp
+                </i></b>
+            </th>
+            <th class="others">Challenges</th>
+            <th class="others">About</th>
+            <th class="others">Login</th>
+        </table>
+
+        <table border="0" width="100%" height="45px" class="responsive-nav-bar">
+            <th class="responsive-logo">
+                <b>
+                    <i>
+                        QuizApp
+                    </i>
+                </b>
+            </th>
+            <th class="responsive-others">
+                <button type="submit" onclick="showData()">
+                 <hr><br>
+                 <hr><br>
+                 <hr>
+                </button></th>
+        </table>
+        <div id="displayData" >
+                    <ul>
+                        <li>Challenges</li>
+                        <li>About</li>
+                        <li>Login</li>
+                        <li id="hideData" onclick="hideData()">Close</li>
+                    </ul>
+        </div>
+
+    <!-- Slide show are start here-->
+        <img name="slideShow" width="100%" height="500px">
+    <!-- Slide show are end here-->
+
+    <!-- for Quiz -->
+    <div class="quiz">
+        <center>
+            <a href="QuizIndex.html" target="_blank">
+                <button id="submit" class="btn">Start The Quiz</button>
+            </a>
+            </center>
+    </div>
+    </body>
+
+    <script src="script.js"></script>
+    
+</html>

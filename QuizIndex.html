@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizWebPage</title>
+        <link rel="stylesheet" href="QuizStyle.css">
+    </head>
+    <body>
+        <table border="0" id="hide" width="100%" hight="45px" class="nav-bar"> 
+            <th class="logo">
+                <b><i>
+                   QuizApp
+                </i></b>
+            </th>
+            <th class="others">Challenges</th>
+            <th class="others">About</th>
+            <th class="others">Login</th>
+        </table>
+
+
+        <table border="0" width="100%" height="45px" class="responsive-nav-bar">
+            <th class="responsive-logo">
+                <b>
+                    <i>
+                        QuizApp
+                    </i>
+                </b>
+            </th>
+            <th class="responsive-others">
+                <button type="submit" onclick="showData()">
+                 <hr><br>
+                 <hr><br>
+                 <hr>
+                </button></th>
+        </table>
+
+        <div id="displayData" >
+            <ul>
+                <li>Challenges</li>
+                <li>About</li>
+                <li>Login</li>
+                <li id="hideData" onclick="hideData()">Close</li>
+            </ul>
+       </div>
+
+       <div class="main-quiz">
+            <h1 class="question">Question are comes here ?</h1>
+            <ul>
+                <li>
+                    <input type="radio" name="ans" id="ans1" class="answers">
+                    <lable for="ans1" id="option1">Options</lable>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans2" class="answers">
+                    <lable for="ans2" id="option2">Options</lable>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans3" class="answers">
+                    <lable for="ans3" id="option3">Options</lable>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans4" class="answers">
+                    <lable for="ans4" id="option4">Options</lable>
+                </li>
+            </ul>
+
+           <center>
+            <button id="submit">Submit</button>
+           </center>
+
+           <center>
+            <div class="result" id="hideFirst">
+               
+            </div>
+           </center>
+       </div>
+       
+       <script src="QuizScript.js"></script>
+    </body>
+</html>

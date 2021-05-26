@@ -1,0 +1,149 @@
+  
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+
+ body{
+    background-color: rgb(29, 26, 26);
+ }
+
+ .nav-bar{
+            border: none;
+            height: 45px;
+            color: white;
+            background: linear-gradient(to right,rgb(19, 18, 18),rgb(78, 67, 67));
+ }
+
+ .nav-bar th{
+            border: none;
+ }
+
+ .logo{
+        width:35%;
+        font-size: 30px;
+        font-family: Gabriola;
+        color:#32cd32;
+ }
+
+ .others{
+            width: 20%;
+ }
+
+ .others:hover{
+            cursor: pointer;
+            background-color: #32cd32;
+ } 
+
+ .logo b i:hover{
+                cursor: pointer;
+                color: rgb(219, 62, 62);
+ }
+
+ .quiz{
+        width: 100%;
+        height: 300px;
+        border: 1px solid wheat;
+        background-image: linear-gradient(to right,rgb(100, 100, 190),rgb(72, 72, 206));
+ }
+
+
+ .btn{
+        width: 50%;
+        height: 50px;
+        transition: width 2s;
+        background-color: red;
+        margin-top: 150px;
+        border: none;
+        font-size: 26px;
+        color: wheat;
+        background-image: linear-gradient(to right,rgb(45, 45, 218),rgb(25, 25, 102));
+ }
+ 
+ .btn:hover{
+     cursor: pointer;
+     width: 60%;
+     transition: width 2s;
+     background-image: linear-gradient(to right,#32cd32,rgb(103, 197, 103));
+ }
+
+@media screen and (min-width:701px){
+    .responsive-nav-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px){
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nav-bar{
+            display: none;
+    }
+
+   .responsive-logo{
+                        color: white;
+                        font-family: Gabriola;
+                        font-size: 30px;
+                        text-align: left;
+                        color:#32cd32;
+                        }
+
+   .responsive-logo b i:hover{
+                                cursor: pointer;
+                                color: rgb(204, 56, 56);
+   }
+
+   .responsive-others{
+                        color: white;
+   }
+
+   #displayData{
+                background-color: black;
+                width: 100%;
+                height: 300px;
+   }
+   button{
+            border: none;
+            background-color: rgb(29, 26, 26);
+            color: white;
+            font-size: 15px;
+   }
+
+   .responsive-others hr{
+                            width: 30px;
+                            
+                           
+   }
+  
+   button:hover{
+              cursor: pointer;
+   }
+
+   #displayData ul li{
+                    color: white;
+                   
+   }
+ 
+   
+  .responsive-nav-bar{
+        background-image: linear-gradient(to right,rgb(19, 18, 18),rgb(78, 67, 67));
+   }
+
+   #displayData ul li{
+                    text-align: center;
+                    padding: 25px;
+                    font-size: 20px;
+                    font-family: tahoma;
+   }
+
+   #displayData ul li:hover{
+                background-color: #32cd32;
+                cursor: pointer;
+   }
+  
+}

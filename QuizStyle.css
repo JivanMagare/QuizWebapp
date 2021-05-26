@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+        background-image: linear-gradient(to right,rgb(83, 83, 194),rgb(120, 120, 238))
+}
+
+.nav-bar{
+        border: none;
+        height: 45px;
+        color: white;
+        background: linear-gradient(to right,rgb(19, 18, 18),rgb(78, 67, 67));
+}
+
+.others:hover{
+    cursor: pointer;
+    background-color: #32cd32;
+} 
+
+.others{
+    width: 20%;
+}
+
+.logo{
+    width:35%;
+    font-size: 30px;
+    font-family: Gabriola;
+    color:#32cd32;
+}
+
+.logo b i:hover{
+    cursor: pointer;
+    color: rgb(219, 62, 62);
+}
+
+.main-quiz{
+            width: 800px;
+            height: 400px;
+            border: 1px solid white;
+            margin: 0px auto;
+            margin-top: 50px;
+            color: white;
+            font-family: sans-serif;
+}
+
+.main-quiz h1{
+                margin-left: 30px;
+}
+
+.main-quiz ul li{
+                    list-style: none;
+                    margin-left: 30px;
+                    padding: 5px;
+}
+
+.main-quiz input:hover{
+                        cursor: pointer;
+}
+
+#submit{
+        background-image: linear-gradient(to right,rgb(120, 120, 221),rgb(80, 80, 146));
+        width: 200px;
+        border: none;
+        color: white;
+        font-size: 30px;
+        height: 50px;
+}
+
+#submit:hover{
+                cursor: pointer;
+                background-image: linear-gradient(to right,rgb(78, 78, 179),rgb(71, 71, 194));
+}
+
+.result{
+            width: 400px;
+            height: 100px;
+            border: 1px solid white;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 20px;
+            border: none;
+            font-family: cursive;
+            line-height: 50px;
+            box-sizing: border-box;
+            background-image: linear-gradient(to right,rgb(143, 143, 197),rgb(113, 113, 248));
+}
+
+
+@media screen and (min-width:701px){
+    .responsive-nav-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main-quiz{
+        width: 100vh;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .responsive-nav-bar{
+        background-image: linear-gradient(to right,rgb(19, 18, 18),rgb(78, 67, 67));
+   }
+
+   .responsive-others hr{
+        width: 30px;   
+   }
+
+   button:hover{
+    cursor: pointer;
+  }
+
+  .responsive-logo b i:hover{
+    cursor: pointer;
+    color: rgb(204, 56, 56);
+ }
+
+ button{
+    border: none;
+    background-color: rgb(29, 26, 26);
+    color: white;
+    font-size: 15px;
+ }
+
+ .responsive-logo{
+    color: white;
+    font-family: Gabriola;
+    font-size: 30px;
+    text-align: left;
+    color:#32cd32;
+    }
+
+    #displayData{
+        background-color: black;
+        width: 100%;
+        height: 300px;
+    }
+
+    #displayData ul li{
+        color: white;
+       
+    }
+
+    #displayData ul li{
+        text-align: center;
+        padding: 25px;
+        font-size: 20px;
+        font-family: tahoma;
+    }
+
+    #displayData ul li:hover{
+        background-color: #32cd32;
+        cursor: pointer;
+    }
+}
